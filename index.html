@@ -14,29 +14,64 @@
     />
   </head>
   <body>
-    <h1 class="title"><img src="./logo.png" /></h1>
+
+
+    <nav class="navbar">
+      <div>
+        <a class="home" href="index.html">Home</a>
+      </div>
+     <div>
+      <h1 class="title"><img src="./logo.png" /></h1>
+     </div>
+      <div>
+        <a class="blog" href="blog.html">Blog</a>
+      </div>
+
+    </nav>
+
+
+    <!-- count area Start -->
     <div id="show-time">0 seconds</div>
+    <!-- count area End -->
+    
+
 
     <div class="box-container">
       <div id="question"></div>
 
       <div id="display" class="inactive"></div>
 
+      <!-- start button Start -->
       <div class="buttons">
-        <button id="starts">START</button>
+        <button id="start">START</button>
       </div>
+      <!-- start button end -->
+
 
       <div class="divider-container">
         <div class="line"></div>
         <h1 class="title2">History</h1>
         <div class="line"></div>
       </div>
+    <!-- result area Start  -->
       <div id="histories"></div>
     </div>
+    <!-- result area End -->
 
+
+    <!-- countdown start  -->
     <div id="countdown"></div>
     <div id="modal-background" class="hidden"></div>
     <div id="result" class="hidden"></div>
+    <!-- countdown End -->
+
+    <footer>
+
+    </footer>
+
+
+
+
 
     <script src="./history.js"></script>
     <script src="./script.js"></script>
