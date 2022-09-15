@@ -57,6 +57,23 @@
   <main class="container">
     <div class="accordion accordion-flush" id="accordionFlushExample">
       
+      <!-- 1question -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            What is the difference between local storage and session storage?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body"><strong>localStorage:</strong> persists the storage across browser sessions. So
+            even if the domain is opened in a new tab, or the browser is closed and reopened, the storage is saved.
+            There is no expiration. <br><br> <strong>sessionStorage:</strong> is cleared when the page session ends. A
+            page session lasts as long as the tab or the browser is open. Therefore, when you open a new tab or a new
+            window, this creates a new session and new storage.</div>
+        </div>
+      </div>
     
      
     
